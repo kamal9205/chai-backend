@@ -1,0 +1,19 @@
+import mongoose from "mongoose";
+
+const todoSchema = new mongoose.Schema(
+    {
+        content: {
+            type: String,
+            requried: true,
+        },
+        complete: {
+            type: Boolean,
+            default: false,
+        },
+        subTodos: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref:"subTodo"
+        }
+    },{timestamps:true});
+
+export const Todo = mongoose.model("Todo",todoSchema);

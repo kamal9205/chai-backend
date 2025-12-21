@@ -1,0 +1,15 @@
+{
+  "name": "task5",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "kamal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
