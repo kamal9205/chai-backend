@@ -1,1 +1,1 @@
-# Chai with Backend Course
+# chai or code course
