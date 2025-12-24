@@ -6,7 +6,7 @@ import express from "express";
 const app = express();
 
 dotenv.config();
-
+/*
 (async ()=> {
    try { 
     const connectDB = await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`)
@@ -21,3 +21,4 @@ dotenv.config();
         throw error
     }
 })()
+*/
